@@ -1,4 +1,5 @@
 import { ToDoList } from "./components/ToDoList"
+import { PomodoroTimer } from "./components/PomodoroTimer"
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="flex gap-8 h-full">
         <div className="flex-1 bg-slate-800 rounded-xl p-6">
           <h2 className="text-slate-100 text-xl font-bold mb-4">Pomodoro</h2>
-          {/* Pomodoro vai entrar aqui depois */}
+          <PomodoroTimer />
         </div>
 
         <div className="flex-1 bg-slate-800 rounded-xl p-6">
